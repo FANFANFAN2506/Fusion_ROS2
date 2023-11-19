@@ -1,0 +1,207 @@
+[1.254s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--packages-select', 'fusion_system_perception']
+[1.254s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=8, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=['fusion_system_perception'], packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7f724f0d6560>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f724f567880>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f724f567880>>)
+[1.313s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[1.313s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[1.313s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[1.313s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[1.313s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[1.314s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[1.314s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/fy62/Fusion'
+[1.314s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[1.314s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[1.314s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[1.314s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[1.314s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[1.314s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[1.314s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[1.314s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[1.314s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[1.329s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[1.329s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[1.329s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[1.329s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[1.329s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[1.329s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[1.329s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[1.329s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[1.330s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[1.330s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[1.330s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[1.330s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[1.330s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[1.330s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[1.330s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[1.330s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[1.330s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[1.330s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[1.330s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[1.330s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[1.330s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[1.331s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[1.331s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[1.331s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[1.331s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[1.331s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[1.331s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[1.331s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[1.331s] Level 1:colcon.colcon_core.package_identification:_identify(src/fusion-system) by extensions ['ignore', 'ignore_ament_install']
+[1.331s] Level 1:colcon.colcon_core.package_identification:_identify(src/fusion-system) by extension 'ignore'
+[1.331s] Level 1:colcon.colcon_core.package_identification:_identify(src/fusion-system) by extension 'ignore_ament_install'
+[1.331s] Level 1:colcon.colcon_core.package_identification:_identify(src/fusion-system) by extensions ['colcon_pkg']
+[1.331s] Level 1:colcon.colcon_core.package_identification:_identify(src/fusion-system) by extension 'colcon_pkg'
+[1.331s] Level 1:colcon.colcon_core.package_identification:_identify(src/fusion-system) by extensions ['colcon_meta']
+[1.331s] Level 1:colcon.colcon_core.package_identification:_identify(src/fusion-system) by extension 'colcon_meta'
+[1.331s] Level 1:colcon.colcon_core.package_identification:_identify(src/fusion-system) by extensions ['ros']
+[1.331s] Level 1:colcon.colcon_core.package_identification:_identify(src/fusion-system) by extension 'ros'
+[1.332s] Level 1:colcon.colcon_core.package_identification:_identify(src/fusion-system) by extensions ['cmake', 'python']
+[1.332s] Level 1:colcon.colcon_core.package_identification:_identify(src/fusion-system) by extension 'cmake'
+[1.332s] Level 1:colcon.colcon_core.package_identification:_identify(src/fusion-system) by extension 'python'
+[1.332s] Level 1:colcon.colcon_core.package_identification:_identify(src/fusion-system) by extensions ['python_setup_py']
+[1.332s] Level 1:colcon.colcon_core.package_identification:_identify(src/fusion-system) by extension 'python_setup_py'
+[1.332s] Level 1:colcon.colcon_core.package_identification:_identify(src/fusion-system/fusion_system) by extensions ['ignore', 'ignore_ament_install']
+[1.332s] Level 1:colcon.colcon_core.package_identification:_identify(src/fusion-system/fusion_system) by extension 'ignore'
+[1.332s] Level 1:colcon.colcon_core.package_identification:_identify(src/fusion-system/fusion_system) by extension 'ignore_ament_install'
+[1.332s] Level 1:colcon.colcon_core.package_identification:_identify(src/fusion-system/fusion_system) by extensions ['colcon_pkg']
+[1.332s] Level 1:colcon.colcon_core.package_identification:_identify(src/fusion-system/fusion_system) by extension 'colcon_pkg'
+[1.332s] Level 1:colcon.colcon_core.package_identification:_identify(src/fusion-system/fusion_system) by extensions ['colcon_meta']
+[1.332s] Level 1:colcon.colcon_core.package_identification:_identify(src/fusion-system/fusion_system) by extension 'colcon_meta'
+[1.332s] Level 1:colcon.colcon_core.package_identification:_identify(src/fusion-system/fusion_system) by extensions ['ros']
+[1.332s] Level 1:colcon.colcon_core.package_identification:_identify(src/fusion-system/fusion_system) by extension 'ros'
+[1.336s] DEBUG:colcon.colcon_core.package_identification:Package 'src/fusion-system/fusion_system' with type 'ros.ament_cmake' and name 'fusion_system'
+[1.336s] Level 1:colcon.colcon_core.package_identification:_identify(src/fusion-system/fusion_system_bringup) by extensions ['ignore', 'ignore_ament_install']
+[1.336s] Level 1:colcon.colcon_core.package_identification:_identify(src/fusion-system/fusion_system_bringup) by extension 'ignore'
+[1.336s] Level 1:colcon.colcon_core.package_identification:_identify(src/fusion-system/fusion_system_bringup) by extension 'ignore_ament_install'
+[1.336s] Level 1:colcon.colcon_core.package_identification:_identify(src/fusion-system/fusion_system_bringup) by extensions ['colcon_pkg']
+[1.336s] Level 1:colcon.colcon_core.package_identification:_identify(src/fusion-system/fusion_system_bringup) by extension 'colcon_pkg'
+[1.337s] Level 1:colcon.colcon_core.package_identification:_identify(src/fusion-system/fusion_system_bringup) by extensions ['colcon_meta']
+[1.337s] Level 1:colcon.colcon_core.package_identification:_identify(src/fusion-system/fusion_system_bringup) by extension 'colcon_meta'
+[1.337s] Level 1:colcon.colcon_core.package_identification:_identify(src/fusion-system/fusion_system_bringup) by extensions ['ros']
+[1.337s] Level 1:colcon.colcon_core.package_identification:_identify(src/fusion-system/fusion_system_bringup) by extension 'ros'
+[1.338s] DEBUG:colcon.colcon_core.package_identification:Package 'src/fusion-system/fusion_system_bringup' with type 'ros.ament_cmake' and name 'fusion_system_bringup'
+[1.338s] Level 1:colcon.colcon_core.package_identification:_identify(src/fusion-system/fusion_system_display) by extensions ['ignore', 'ignore_ament_install']
+[1.338s] Level 1:colcon.colcon_core.package_identification:_identify(src/fusion-system/fusion_system_display) by extension 'ignore'
+[1.338s] Level 1:colcon.colcon_core.package_identification:_identify(src/fusion-system/fusion_system_display) by extension 'ignore_ament_install'
+[1.338s] Level 1:colcon.colcon_core.package_identification:_identify(src/fusion-system/fusion_system_display) by extensions ['colcon_pkg']
+[1.338s] Level 1:colcon.colcon_core.package_identification:_identify(src/fusion-system/fusion_system_display) by extension 'colcon_pkg'
+[1.338s] Level 1:colcon.colcon_core.package_identification:_identify(src/fusion-system/fusion_system_display) by extensions ['colcon_meta']
+[1.338s] Level 1:colcon.colcon_core.package_identification:_identify(src/fusion-system/fusion_system_display) by extension 'colcon_meta'
+[1.339s] Level 1:colcon.colcon_core.package_identification:_identify(src/fusion-system/fusion_system_display) by extensions ['ros']
+[1.339s] Level 1:colcon.colcon_core.package_identification:_identify(src/fusion-system/fusion_system_display) by extension 'ros'
+[1.339s] DEBUG:colcon.colcon_core.package_identification:Package 'src/fusion-system/fusion_system_display' with type 'ros.ament_python' and name 'fusion_system_display'
+[1.340s] Level 1:colcon.colcon_core.package_identification:_identify(src/fusion-system/fusion_system_drivers) by extensions ['ignore', 'ignore_ament_install']
+[1.340s] Level 1:colcon.colcon_core.package_identification:_identify(src/fusion-system/fusion_system_drivers) by extension 'ignore'
+[1.340s] Level 1:colcon.colcon_core.package_identification:_identify(src/fusion-system/fusion_system_drivers) by extension 'ignore_ament_install'
+[1.340s] Level 1:colcon.colcon_core.package_identification:_identify(src/fusion-system/fusion_system_drivers) by extensions ['colcon_pkg']
+[1.340s] Level 1:colcon.colcon_core.package_identification:_identify(src/fusion-system/fusion_system_drivers) by extension 'colcon_pkg'
+[1.340s] Level 1:colcon.colcon_core.package_identification:_identify(src/fusion-system/fusion_system_drivers) by extensions ['colcon_meta']
+[1.340s] Level 1:colcon.colcon_core.package_identification:_identify(src/fusion-system/fusion_system_drivers) by extension 'colcon_meta'
+[1.340s] Level 1:colcon.colcon_core.package_identification:_identify(src/fusion-system/fusion_system_drivers) by extensions ['ros']
+[1.340s] Level 1:colcon.colcon_core.package_identification:_identify(src/fusion-system/fusion_system_drivers) by extension 'ros'
+[1.341s] DEBUG:colcon.colcon_core.package_identification:Package 'src/fusion-system/fusion_system_drivers' with type 'ros.ament_cmake' and name 'fusion_system_drivers'
+[1.341s] Level 1:colcon.colcon_core.package_identification:_identify(src/fusion-system/fusion_system_msgs) by extensions ['ignore', 'ignore_ament_install']
+[1.341s] Level 1:colcon.colcon_core.package_identification:_identify(src/fusion-system/fusion_system_msgs) by extension 'ignore'
+[1.341s] Level 1:colcon.colcon_core.package_identification:_identify(src/fusion-system/fusion_system_msgs) by extension 'ignore_ament_install'
+[1.342s] Level 1:colcon.colcon_core.package_identification:_identify(src/fusion-system/fusion_system_msgs) by extensions ['colcon_pkg']
+[1.342s] Level 1:colcon.colcon_core.package_identification:_identify(src/fusion-system/fusion_system_msgs) by extension 'colcon_pkg'
+[1.342s] Level 1:colcon.colcon_core.package_identification:_identify(src/fusion-system/fusion_system_msgs) by extensions ['colcon_meta']
+[1.342s] Level 1:colcon.colcon_core.package_identification:_identify(src/fusion-system/fusion_system_msgs) by extension 'colcon_meta'
+[1.342s] Level 1:colcon.colcon_core.package_identification:_identify(src/fusion-system/fusion_system_msgs) by extensions ['ros']
+[1.342s] Level 1:colcon.colcon_core.package_identification:_identify(src/fusion-system/fusion_system_msgs) by extension 'ros'
+[1.343s] DEBUG:colcon.colcon_core.package_identification:Package 'src/fusion-system/fusion_system_msgs' with type 'ros.ament_cmake' and name 'fusion_system_msgs'
+[1.343s] Level 1:colcon.colcon_core.package_identification:_identify(src/fusion-system/fusion_system_perception) by extensions ['ignore', 'ignore_ament_install']
+[1.343s] Level 1:colcon.colcon_core.package_identification:_identify(src/fusion-system/fusion_system_perception) by extension 'ignore'
+[1.343s] Level 1:colcon.colcon_core.package_identification:_identify(src/fusion-system/fusion_system_perception) by extension 'ignore_ament_install'
+[1.343s] Level 1:colcon.colcon_core.package_identification:_identify(src/fusion-system/fusion_system_perception) by extensions ['colcon_pkg']
+[1.343s] Level 1:colcon.colcon_core.package_identification:_identify(src/fusion-system/fusion_system_perception) by extension 'colcon_pkg'
+[1.343s] Level 1:colcon.colcon_core.package_identification:_identify(src/fusion-system/fusion_system_perception) by extensions ['colcon_meta']
+[1.343s] Level 1:colcon.colcon_core.package_identification:_identify(src/fusion-system/fusion_system_perception) by extension 'colcon_meta'
+[1.343s] Level 1:colcon.colcon_core.package_identification:_identify(src/fusion-system/fusion_system_perception) by extensions ['ros']
+[1.344s] Level 1:colcon.colcon_core.package_identification:_identify(src/fusion-system/fusion_system_perception) by extension 'ros'
+[1.344s] DEBUG:colcon.colcon_core.package_identification:Package 'src/fusion-system/fusion_system_perception' with type 'ros.ament_python' and name 'fusion_system_perception'
+[1.344s] Level 1:colcon.colcon_core.package_identification:_identify(src/fusion-system/fusion_system_tracking) by extensions ['ignore', 'ignore_ament_install']
+[1.345s] Level 1:colcon.colcon_core.package_identification:_identify(src/fusion-system/fusion_system_tracking) by extension 'ignore'
+[1.345s] Level 1:colcon.colcon_core.package_identification:_identify(src/fusion-system/fusion_system_tracking) by extension 'ignore_ament_install'
+[1.345s] Level 1:colcon.colcon_core.package_identification:_identify(src/fusion-system/fusion_system_tracking) by extensions ['colcon_pkg']
+[1.345s] Level 1:colcon.colcon_core.package_identification:_identify(src/fusion-system/fusion_system_tracking) by extension 'colcon_pkg'
+[1.345s] Level 1:colcon.colcon_core.package_identification:_identify(src/fusion-system/fusion_system_tracking) by extensions ['colcon_meta']
+[1.345s] Level 1:colcon.colcon_core.package_identification:_identify(src/fusion-system/fusion_system_tracking) by extension 'colcon_meta'
+[1.345s] Level 1:colcon.colcon_core.package_identification:_identify(src/fusion-system/fusion_system_tracking) by extensions ['ros']
+[1.345s] Level 1:colcon.colcon_core.package_identification:_identify(src/fusion-system/fusion_system_tracking) by extension 'ros'
+[1.346s] DEBUG:colcon.colcon_core.package_identification:Package 'src/fusion-system/fusion_system_tracking' with type 'ros.ament_python' and name 'fusion_system_tracking'
+[1.346s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[1.346s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[1.346s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[1.346s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[1.346s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[1.422s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'fusion_system' in 'src/fusion-system/fusion_system'
+[1.422s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'fusion_system_display' in 'src/fusion-system/fusion_system_display'
+[1.422s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'fusion_system_drivers' in 'src/fusion-system/fusion_system_drivers'
+[1.422s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'fusion_system_msgs' in 'src/fusion-system/fusion_system_msgs'
+[1.422s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'fusion_system_tracking' in 'src/fusion-system/fusion_system_tracking'
+[1.422s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'fusion_system_bringup' in 'src/fusion-system/fusion_system_bringup'
+[1.459s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[1.459s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[1.503s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 284 installed packages in /opt/ros/humble
+[1.504s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[1.612s] Level 5:colcon.colcon_core.verb:set package 'fusion_system_perception' build argument 'cmake_args' from command line to 'None'
+[1.612s] Level 5:colcon.colcon_core.verb:set package 'fusion_system_perception' build argument 'cmake_target' from command line to 'None'
+[1.612s] Level 5:colcon.colcon_core.verb:set package 'fusion_system_perception' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.612s] Level 5:colcon.colcon_core.verb:set package 'fusion_system_perception' build argument 'cmake_clean_cache' from command line to 'False'
+[1.613s] Level 5:colcon.colcon_core.verb:set package 'fusion_system_perception' build argument 'cmake_clean_first' from command line to 'False'
+[1.613s] Level 5:colcon.colcon_core.verb:set package 'fusion_system_perception' build argument 'cmake_force_configure' from command line to 'False'
+[1.613s] Level 5:colcon.colcon_core.verb:set package 'fusion_system_perception' build argument 'ament_cmake_args' from command line to 'None'
+[1.613s] Level 5:colcon.colcon_core.verb:set package 'fusion_system_perception' build argument 'catkin_cmake_args' from command line to 'None'
+[1.613s] Level 5:colcon.colcon_core.verb:set package 'fusion_system_perception' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.613s] DEBUG:colcon.colcon_core.verb:Building package 'fusion_system_perception' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/fy62/Fusion/build/fusion_system_perception', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/fy62/Fusion/install/fusion_system_perception', 'merge_install': False, 'path': '/home/fy62/Fusion/src/fusion-system/fusion_system_perception', 'symlink_install': False, 'test_result_base': None}
+[1.632s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[1.650s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[1.650s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/fy62/Fusion/src/fusion-system/fusion_system_perception' with build type 'ament_python'
+[1.651s] Level 1:colcon.colcon_core.shell:create_environment_hook('fusion_system_perception', 'ament_prefix_path')
+[1.671s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[1.672s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/fy62/Fusion/install/fusion_system_perception/share/fusion_system_perception/hook/ament_prefix_path.ps1'
+[1.672s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/fy62/Fusion/install/fusion_system_perception/share/fusion_system_perception/hook/ament_prefix_path.dsv'
+[1.673s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/fy62/Fusion/install/fusion_system_perception/share/fusion_system_perception/hook/ament_prefix_path.sh'
+[1.692s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.692s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.077s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/fy62/Fusion/src/fusion-system/fusion_system_perception'
+[2.097s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.097s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.597s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/fy62/Fusion/src/fusion-system/fusion_system_perception': PYTHONPATH=/home/fy62/Fusion/build/fusion_system_perception/prefix_override:/home/fy62/Fusion/install/fusion_system_perception/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/fusion_system_perception build --build-base /home/fy62/Fusion/build/fusion_system_perception/build install --record /home/fy62/Fusion/build/fusion_system_perception/install.log --single-version-externally-managed
+[2.953s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/fy62/Fusion/src/fusion-system/fusion_system_perception' returned '0': PYTHONPATH=/home/fy62/Fusion/build/fusion_system_perception/prefix_override:/home/fy62/Fusion/install/fusion_system_perception/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/fusion_system_perception build --build-base /home/fy62/Fusion/build/fusion_system_perception/build install --record /home/fy62/Fusion/build/fusion_system_perception/install.log --single-version-externally-managed
+[2.975s] Level 1:colcon.colcon_core.environment:checking '/home/fy62/Fusion/install/fusion_system_perception' for CMake module files
+[2.976s] Level 1:colcon.colcon_core.environment:checking '/home/fy62/Fusion/install/fusion_system_perception' for CMake config files
+[2.976s] Level 1:colcon.colcon_core.environment:checking '/home/fy62/Fusion/install/fusion_system_perception/lib'
+[2.977s] Level 1:colcon.colcon_core.environment:checking '/home/fy62/Fusion/install/fusion_system_perception/bin'
+[2.977s] Level 1:colcon.colcon_core.environment:checking '/home/fy62/Fusion/install/fusion_system_perception/lib/pkgconfig/fusion_system_perception.pc'
+[2.977s] Level 1:colcon.colcon_core.environment:checking '/home/fy62/Fusion/install/fusion_system_perception/lib/python3.10/site-packages'
+[2.977s] Level 1:colcon.colcon_core.shell:create_environment_hook('fusion_system_perception', 'pythonpath')
+[2.998s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/fy62/Fusion/install/fusion_system_perception/share/fusion_system_perception/hook/pythonpath.ps1'
+[2.998s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/fy62/Fusion/install/fusion_system_perception/share/fusion_system_perception/hook/pythonpath.dsv'
+[2.999s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/fy62/Fusion/install/fusion_system_perception/share/fusion_system_perception/hook/pythonpath.sh'
+[3.000s] Level 1:colcon.colcon_core.environment:checking '/home/fy62/Fusion/install/fusion_system_perception/bin'
+[3.000s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(fusion_system_perception)
+[3.017s] INFO:colcon.colcon_core.shell:Creating package script '/home/fy62/Fusion/install/fusion_system_perception/share/fusion_system_perception/package.ps1'
+[3.018s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/fy62/Fusion/install/fusion_system_perception/share/fusion_system_perception/package.dsv'
+[3.019s] INFO:colcon.colcon_core.shell:Creating package script '/home/fy62/Fusion/install/fusion_system_perception/share/fusion_system_perception/package.sh'
+[3.020s] INFO:colcon.colcon_core.shell:Creating package script '/home/fy62/Fusion/install/fusion_system_perception/share/fusion_system_perception/package.bash'
+[3.021s] INFO:colcon.colcon_core.shell:Creating package script '/home/fy62/Fusion/install/fusion_system_perception/share/fusion_system_perception/package.zsh'
+[3.021s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/fy62/Fusion/install/fusion_system_perception/share/colcon-core/packages/fusion_system_perception)
+[3.022s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[3.022s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[3.022s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[3.022s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[3.048s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.notify_send': Could not find 'notify-send'
+[3.048s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[3.049s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[3.049s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[3.157s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[3.176s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/fy62/Fusion/install/local_setup.ps1'
+[3.177s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/fy62/Fusion/install/_local_setup_util_ps1.py'
+[3.178s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/fy62/Fusion/install/setup.ps1'
+[3.214s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/fy62/Fusion/install/local_setup.sh'
+[3.215s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/fy62/Fusion/install/_local_setup_util_sh.py'
+[3.216s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/fy62/Fusion/install/setup.sh'
+[3.240s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/fy62/Fusion/install/local_setup.bash'
+[3.241s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/fy62/Fusion/install/setup.bash'
+[3.261s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/fy62/Fusion/install/local_setup.zsh'
+[3.262s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/fy62/Fusion/install/setup.zsh'

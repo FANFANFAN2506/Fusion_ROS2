@@ -1,0 +1,3 @@
+[console_scripts]
+do_nothing = fusion_system_perception.do_nothing:main
+

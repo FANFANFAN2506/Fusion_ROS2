@@ -1,0 +1,4 @@
+<launch>
+    <node pkg="fusion_system_display" exec="do_nothing"/>
+    <node pkg="fusion_system_perception" exec="do_nothing"/>
+</launch>

@@ -1,0 +1,3 @@
+[console_scripts]
+do_nothing = fusion_system_display.do_nothing:main
+

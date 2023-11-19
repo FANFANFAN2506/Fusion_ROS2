@@ -1,0 +1,23 @@
+[1.540s] Invoking command in '/home/fy62/Fusion/src/fusion-system/fusion_system_display': PYTHONPATH=/home/fy62/Fusion/build/fusion_system_display/prefix_override:/home/fy62/Fusion/install/fusion_system_display/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/fusion_system_display build --build-base /home/fy62/Fusion/build/fusion_system_display/build install --record /home/fy62/Fusion/build/fusion_system_display/install.log --single-version-externally-managed
+[1.833s] running egg_info
+[1.834s] writing ../../../build/fusion_system_display/fusion_system_display.egg-info/PKG-INFO
+[1.834s] writing dependency_links to ../../../build/fusion_system_display/fusion_system_display.egg-info/dependency_links.txt
+[1.835s] writing entry points to ../../../build/fusion_system_display/fusion_system_display.egg-info/entry_points.txt
+[1.835s] writing requirements to ../../../build/fusion_system_display/fusion_system_display.egg-info/requires.txt
+[1.835s] writing top-level names to ../../../build/fusion_system_display/fusion_system_display.egg-info/top_level.txt
+[1.837s] reading manifest file '../../../build/fusion_system_display/fusion_system_display.egg-info/SOURCES.txt'
+[1.838s] writing manifest file '../../../build/fusion_system_display/fusion_system_display.egg-info/SOURCES.txt'
+[1.839s] running build
+[1.839s] running build_py
+[1.839s] running install
+[1.839s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[1.839s]   warnings.warn(
+[1.839s] running install_lib
+[1.841s] running install_data
+[1.841s] running install_egg_info
+[1.843s] removing '/home/fy62/Fusion/install/fusion_system_display/lib/python3.10/site-packages/fusion_system_display-0.0.0-py3.10.egg-info' (and everything under it)
+[1.844s] Copying ../../../build/fusion_system_display/fusion_system_display.egg-info to /home/fy62/Fusion/install/fusion_system_display/lib/python3.10/site-packages/fusion_system_display-0.0.0-py3.10.egg-info
+[1.845s] running install_scripts
+[1.871s] Installing do_nothing script to /home/fy62/Fusion/install/fusion_system_display/lib/fusion_system_display
+[1.871s] writing list of installed files to '/home/fy62/Fusion/build/fusion_system_display/install.log'
+[1.951s] Invoked command in '/home/fy62/Fusion/src/fusion-system/fusion_system_display' returned '0': PYTHONPATH=/home/fy62/Fusion/build/fusion_system_display/prefix_override:/home/fy62/Fusion/install/fusion_system_display/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/fusion_system_display build --build-base /home/fy62/Fusion/build/fusion_system_display/build install --record /home/fy62/Fusion/build/fusion_system_display/install.log --single-version-externally-managed

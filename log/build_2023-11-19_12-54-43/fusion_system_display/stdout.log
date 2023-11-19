@@ -1,0 +1,19 @@
+running egg_info
+writing ../../../build/fusion_system_display/fusion_system_display.egg-info/PKG-INFO
+writing dependency_links to ../../../build/fusion_system_display/fusion_system_display.egg-info/dependency_links.txt
+writing entry points to ../../../build/fusion_system_display/fusion_system_display.egg-info/entry_points.txt
+writing requirements to ../../../build/fusion_system_display/fusion_system_display.egg-info/requires.txt
+writing top-level names to ../../../build/fusion_system_display/fusion_system_display.egg-info/top_level.txt
+reading manifest file '../../../build/fusion_system_display/fusion_system_display.egg-info/SOURCES.txt'
+writing manifest file '../../../build/fusion_system_display/fusion_system_display.egg-info/SOURCES.txt'
+running build
+running build_py
+running install
+running install_lib
+running install_data
+running install_egg_info
+removing '/home/fy62/Fusion/install/fusion_system_display/lib/python3.10/site-packages/fusion_system_display-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../../../build/fusion_system_display/fusion_system_display.egg-info to /home/fy62/Fusion/install/fusion_system_display/lib/python3.10/site-packages/fusion_system_display-0.0.0-py3.10.egg-info
+running install_scripts
+Installing do_nothing script to /home/fy62/Fusion/install/fusion_system_display/lib/fusion_system_display
+writing list of installed files to '/home/fy62/Fusion/build/fusion_system_display/install.log'
